@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
 html {
-    background-color: black;
-    max-width: 1000px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(10, 8, 12);
+    color: white;
+    max-width: 85%;
     height: 100%;
     margin: auto;
     min-width: 400px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+#projects, #skills {
+    padding: 0px 20%;
 }
 
 nav {
@@ -11,6 +27,8 @@ nav {
     align-items: end;
     justify-content: space-between;
     border-bottom: 2px solid black;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.185);
 }
 
 nav ul {
@@ -21,34 +39,68 @@ nav ul {
 }
 
 h2 {
+    font-size: 75px;
     margin: 10px 0px;
 }
 
+p {
+    font-size: 30px;
+    color: white;
+}
+
+.aboutcontainer h2 {
+    color:rgb(250, 194, 120);
+    width: 50%;
+    margin: 0 25%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+
 nav ul li {
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 body {
-    background-color: #f2e6d9;
-    height: 100%;
+    background-color: #ffffff0a;
     display: block;
     flex-direction: column;
     margin: auto;
-    padding: 0px 15px;
+    padding: 0px;
+    height: 100%;
 }
+
 
 .contactitems {
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: center;
+    padding-inline-start: 0px;
+    background-color: rgb(141, 87, 87);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px black;
+}
+
+.contactitems li {
+    margin: 0px 15px;
 }
 
 .navitem a{
-    color:black;
+    color:rgb(250, 194, 120);
     text-decoration: none;
 }
 
 img {
     width: 30px;
     height: auto;
+}
+
+h3 {
+    color:rgb(250, 194, 120);
+    text-align: center;
+}
+
+.aboutcontainer {
+    padding-top: 200px;
+    text-align: center;
 }
