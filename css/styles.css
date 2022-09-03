@@ -58,6 +58,7 @@ p {
 
 nav ul li {
     padding: 5px 10px;
+    font-size: 24px;
 }
 
 body {
@@ -103,4 +104,11 @@ h3 {
 .aboutcontainer {
     padding-top: 200px;
     text-align: center;
+}
+
+#contact {
+    position:absolute;
+    bottom: 0;
+    left: 40%;
+    right: 40%;
 }
